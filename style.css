@@ -1,0 +1,76 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 30vw;
+    height: 60vh;
+    border: 2vh solid black;
+    border-radius: 2vh;
+    padding: 3vh;
+    background-color: grey;
+}
+
+.numbers{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 20vw;
+    height: 13vh;
+}
+
+.firstRow,.secondRow,.thirdRow,.fourthRow{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.numberButton{
+    width: 6vw;
+}
+
+.undoButton{
+    width: 6vw;
+}
+
+.display,.buttons,.equals{
+    display:flex;
+    align-items: center;
+}
+
+.buttons,.equals{
+    width: 15vw;
+    justify-content: space-between;
+    height: 8vh;
+}
+
+.operatorButtons{
+    width: 4vh;
+    height: 4vh;
+    background-color: black;
+    color: white;
+}
+
+.equalButton,.clearButton{
+    width: 8vh;
+    height: 4vh;
+    background-color: black;
+    color: white;
+}
+
+.display{
+    width: 20vw;
+    height: 15vh;
+    background-color: rgb(196, 188, 188);
+    border-radius: 2vh;
+    justify-content: center;
+    border: 1vh solid black;
+}
